@@ -8,24 +8,57 @@
 
 [![Skills](https://img.shields.io/badge/SKILLS-221-9B59B6?style=for-the-badge&labelColor=0a0a0a)](#-skill-library)
 [![Categories](https://img.shields.io/badge/CATEGORIES-13-FF6B6B?style=for-the-badge&labelColor=0a0a0a)](#-categories)
+[![Auto-Invoke](https://img.shields.io/badge/AUTO--INVOKE-READY-00D4AA?style=for-the-badge&labelColor=0a0a0a)](#-auto-invoke-system)
 
 ---
 
-*Just say it naturally. Your agent picks the right skill.*
+## Auto-Invoke System
+
+**Skills trigger automatically from natural language.** No slash commands needed.
+
+Every skill has a standardized description that tells the agent exactly when to activate:
+
+```yaml
+description: >
+  Use this skill when the user wants to [goal 1], [goal 2], or [goal 3].
+  Do not use for [exclusion 1], [exclusion 2], or [exclusion 3].
+triggers:
+  - "example phrase 1"
+  - "example phrase 2"
+```
+
+### How It Works
 
 ```
-"Build a landing page"     → design-taste-frontend
-"Review this PR"           → code-review
-"Debug this test"          → bug-debugging
-"Create a video"           → hyperframes
-"Generate product images"  → ecommerce-image-workflow
+You say: "Build a landing page that doesn't look AI-generated"
+Agent matches: design-taste-frontend (auto-invoked)
+Result: Anti-slop frontend with premium aesthetics
+
+You say: "Review this PR for security issues"
+Agent matches: code-review + security-and-hardening (auto-invoked)
+Result: Security-focused code review with OWASP checks
 ```
 
-</div>
+### The Pattern
+
+| Instead of... | Say... | What happens |
+|:--------------|:-------|:-------------|
+| `/design-taste-frontend build a landing page` | "Build a landing page" | Auto-invokes design-taste-frontend |
+| `/code-review review this PR` | "Review this PR for issues" | Auto-invokes code-review |
+| `/bug-debugging debug this test` | "Debug why this test fails" | Auto-invokes bug-debugging |
+| `/hyperframes make a video` | "Create a product launch video" | Auto-invokes product-launch-video |
+| `/fal-generate generate an image` | "Generate a hero image" | Auto-invokes fal-generate |
+
+### Why Auto-Invoke Works Better
+
+1. **Natural language** — No need to remember skill names
+2. **Context-aware** — Agent picks the right skill based on your intent
+3. **Multi-skill routing** — Complex requests can trigger multiple skills
+4. **Less cognitive load** — Focus on what you want, not how to get it
 
 ---
 
-## How to Use
+## Quick Start
 
 ```bash
 # 1. Clone
@@ -35,10 +68,12 @@ git clone https://github.com/shivamsingh-007/Skill-is-All-you-Need.git
 cp -r */ ~/.claude/skills/       # Claude Code
 cp -r */ ~/.agents/skills/       # OpenCode
 
-# 3. Just ask naturally
+# 3. Just ask naturally — skills auto-invoke
 "Build a landing page"
 "Review this PR for security issues"
 "Debug why the API returns 500"
+"Create a product launch video"
+"Generate a hero image with AI"
 ```
 
 ---
