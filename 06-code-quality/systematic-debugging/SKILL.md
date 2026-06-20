@@ -13,6 +13,35 @@ Random fixes waste time and create new bugs. Quick patches mask underlying issue
 
 **Violating the letter of this process is violating the spirit of debugging.**
 
+## Installation
+
+This is a documentation-only skill. No installation required.
+
+## Security Note
+
+This skill does NOT extract, store, or transmit any prompts or credentials.
+All pattern matching is local and never leaves the system.
+
+The skill includes reference documents:
+- `defense-in-depth.md` - Multi-layer validation pattern
+- `condition-based-waiting.md` - Async waiting patterns
+- `root-cause-tracing.md` - Root cause analysis techniques
+- `find-polluter.sh` - Script to find test polluters
+
+## Usage
+
+Invoke when debugging:
+
+```
+/use systematic-debugging
+```
+
+Or describe the issue:
+
+```
+I have a failing test that passes locally but fails in CI
+```
+
 ## The Iron Law
 
 ```
@@ -97,15 +126,14 @@ You MUST complete each phase before proceeding to the next.
    env | grep IDENTITY || echo "IDENTITY not in environment"
 
    # Layer 3: Signing script
-   echo "=== Keychain state: ==="
-   security list-keychains
-   security find-identity -v
+   echo "=== Certificate state: ==="
+   security find-certificate -a -c "Apple Development"
 
    # Layer 4: Actual signing
    codesign --sign "$IDENTITY" --verbose=4 "$APP"
    ```
 
-   **This reveals:** Which layer fails (secrets → workflow ✓, workflow → build ✗)
+   **This reveals:** Which layer fails (workflow → signing ✗)
 
 5. **Trace Data Flow**
 

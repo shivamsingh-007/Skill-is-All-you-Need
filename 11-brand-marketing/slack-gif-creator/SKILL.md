@@ -637,10 +637,29 @@ This toolkit provides building blocks, not rigid recipes. To work with a GIF req
 
 **The goal is creative freedom within Slack's technical constraints.**
 
-## Dependencies
+## Installation
 
-To use this toolkit, install these dependencies only if they aren't already present:
+### Prerequisites
+- Python 3.8+
+- pip
+
+### Install Dependencies
 
 ```bash
-pip install pillow imageio numpy
+pip install -r requirements.txt
+```
+
+Or install manually:
+
+```bash
+pip install pillow==12.2.0 imageio==2.37.0 imageio-ffmpeg==0.5.1 numpy==2.4.6
+```
+
+### Verify Installation
+
+```python
+from PIL import Image
+import imageio
+import numpy
+print("All dependencies installed successfully")
 ```

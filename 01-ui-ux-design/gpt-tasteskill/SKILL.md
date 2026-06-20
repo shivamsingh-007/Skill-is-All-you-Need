@@ -1,6 +1,12 @@
 ---
 name: gpt-taste
-description: |
+description: >
+  Use this skill when building elite UX/UI with GSAP motion, AIDA page structure, and wide editorial typography.
+  Do not use for simple static pages or backend work.
+triggers:
+  - "build elite UI with motion"
+  - "GSAP motion design"
+  - "AIDA page structure"
   Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless bento grids, strict GSAP ScrollTriggers (pinning, stacking, scrubbing), inline micro-images, and massive section spacing.
 triggers:
   - "gpt taste"

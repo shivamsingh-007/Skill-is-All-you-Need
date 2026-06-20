@@ -1,6 +1,13 @@
 ---
 name: connect
-description: Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 1000+ services.
+description: >
+  Use this skill when sending emails, creating issues, posting messages, or updating databases across 1000+ services.
+  Do not use for code generation or file operations.
+triggers:
+  - "send email"
+  - "create GitHub issue"
+  - "post to Slack"
+  - "update database" Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 1000+ services.
 ---
 
 # Connect

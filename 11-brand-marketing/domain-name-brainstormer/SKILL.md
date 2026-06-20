@@ -1,6 +1,12 @@
 ---
 name: domain-name-brainstormer
-description: Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, .ai, etc.). Saves hours of brainstorming and manual checking.
+description: >
+  Use this skill when brainstorming domain names and checking availability across multiple TLDs.
+  Do not use for brand naming or company naming.
+triggers:
+  - "brainstorm domain names"
+  - "check domain availability"
+  - "find domain name" for your project and checks availability across multiple TLDs (.com, .io, .dev, .ai, etc.). Saves hours of brainstorming and manual checking.
 ---
 
 # Domain Name Brainstormer

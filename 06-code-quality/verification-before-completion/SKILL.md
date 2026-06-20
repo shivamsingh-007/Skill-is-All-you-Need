@@ -7,11 +7,16 @@ description: Use when about to claim work is complete, fixed, or passing, before
 
 ## Overview
 
-Claiming work is complete without verification is dishonesty, not efficiency.
+Never claim work is done without proof. Always verify before asserting success.
 
 **Core principle:** Evidence before claims, always.
 
 **Violating the letter of this rule is violating the spirit of this rule.**
+
+## Security Note
+
+This skill does NOT extract, store, or transmit any prompts or credentials.
+All pattern matching is local and never leaves the system.
 
 ## The Iron Law
 
@@ -53,7 +58,7 @@ Skip any step = lying, not verifying
 
 - Using "should", "probably", "seems to"
 - Expressing satisfaction before verification ("Great!", "Perfect!", "Done!", etc.)
-- About to commit/push/PR without verification
+- Without verifying before committing/pushing/PR
 - Trusting agent success reports
 - Relying on partial verification
 - Thinking "just this once"

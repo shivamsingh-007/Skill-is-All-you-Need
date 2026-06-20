@@ -1,6 +1,12 @@
 ---
 name: threejs
-description: |
+description: >
+  Use this skill when creating Three.js scenes, 3D elements, materials, controls, or post-processing.
+  Do not use for 2D animations or CSS-only effects.
+triggers:
+  - "create 3D scene"
+  - "add Three.js"
+  - "WebGL visualization"
   Three.js skills for creating 3D elements and interactive experiences in the browser — scenes, materials, controls, and post-processing.
 triggers:
   - "threejs"

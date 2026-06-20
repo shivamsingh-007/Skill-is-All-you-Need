@@ -1,6 +1,12 @@
 ---
 name: hallucination-debugging
-description: Diagnose unsupported or fabricated model outputs and trace the likely cause. Use this when asked to analyze hallucinations in answers, agents, tool use, or summaries. Do not use for normal bug debugging unless the issue is specifically unsupported generation.
+description: >
+  Use this skill when diagnosing hallucinations, fabricated outputs, or unsupported claims in AI responses.
+  Do not use for normal bug debugging.
+triggers:
+  - "find hallucination source"
+  - "this output seems made up"
+  - "AI is hallucinating" and trace the likely cause. Use this when asked to analyze hallucinations in answers, agents, tool use, or summaries. Do not use for normal bug debugging unless the issue is specifically unsupported generation.
 ---
 
 # Hallucination Debugging

@@ -1,6 +1,12 @@
 ---
 name: rag-evaluation
-description: Evaluate retrieval-augmented generation quality and hallucination risk. Use this when asked to assess retrieval quality, grounding, chunking, citation behavior, or RAG answer faithfulness. Do not use for non-retrieval chatbot prompts. Do not use for diagnosing specific unsupported outputs - use hallucination-debugging instead.
+description: >
+  Use this skill when evaluating RAG quality, grounding, chunking, citation behavior, or retrieval faithfulness.
+  Do not use for non-retrieval chatbot prompts.
+triggers:
+  - "check RAG grounding"
+  - "evaluate retrieval quality"
+  - "RAG hallucination check" and hallucination risk. Use this when asked to assess retrieval quality, grounding, chunking, citation behavior, or RAG answer faithfulness. Do not use for non-retrieval chatbot prompts. Do not use for diagnosing specific unsupported outputs - use hallucination-debugging instead.
 ---
 
 # RAG Evaluation

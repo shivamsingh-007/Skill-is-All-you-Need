@@ -1,6 +1,12 @@
 ---
 name: test-generation
-description: Create tests for existing code or planned behavior. Use this when asked to write unit, integration, regression, or end-to-end tests. Do not use for performance benchmarking or observability setup.
+description: >
+  Use this skill when writing unit, integration, regression, or end-to-end tests for existing code.
+  Do not use for performance benchmarking or observability setup.
+triggers:
+  - "write tests for this"
+  - "add regression tests"
+  - "create test suite" Use this when asked to write unit, integration, regression, or end-to-end tests. Do not use for performance benchmarking or observability setup.
 ---
 
 # Test Generation

@@ -1,6 +1,12 @@
 ---
 name: pptx-generator
-description: |
+description: >
+  Use this skill when creating or editing PowerPoint presentations with PptxGenJS.
+  Do not use for HTML slides or PDF presentations.
+triggers:
+  - "create presentation"
+  - "edit slides"
+  - "PowerPoint generation"
   Create and edit PowerPoint presentations from scratch with PptxGenJS — MiniMax's production-tested deck pipeline.
 triggers:
   - "pptx generator"

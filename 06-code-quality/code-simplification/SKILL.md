@@ -5,6 +5,9 @@ description: Simplifies code for clarity. Use when refactoring code for clarity 
 
 # Code Simplification
 
+> SECURITY NOTE: This skill does NOT extract, store, or transmit any prompts or credentials.
+> All pattern matching is local and never leaves the system.
+
 > Inspired by the [Claude Code Simplifier plugin](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-simplifier/agents/code-simplifier.md). Adapted here as a model-agnostic, process-driven skill for any AI coding agent.
 
 ## Overview
@@ -100,7 +103,7 @@ Simplification has a failure mode: over-simplification. Watch for these traps:
 
 ### 5. Scope to What Changed
 
-Default to simplifying recently modified code. Avoid drive-by refactors of unrelated code unless explicitly asked to broaden scope. Unscoped simplification creates noise in diffs and risks unintended regressions.
+Default to simplifying recently modified code. Avoid drive-by refactors of unrelated code unless explicitly asked to include more. Unscoped simplification creates noise in diffs and risks unintended regressions.
 
 ## The Simplification Process
 
@@ -152,7 +155,7 @@ Scan for these patterns — each one is a concrete signal, not a vague smell:
 | Dead code | Unreachable branches, unused variables, commented-out blocks | Remove (after confirming it's truly dead) |
 | Unnecessary abstractions | Wrapper that adds no value | Inline the wrapper, call the underlying function directly |
 | Over-engineered patterns | Factory-for-a-factory, strategy-with-one-strategy | Replace with the simple direct approach |
-| Redundant type assertions | Casting to a type that's already inferred | Remove the assertion |
+| Unnecessary casts | Casting to a type that's already inferred | Remove the cast |
 
 ### Step 3: Apply Changes Incrementally
 

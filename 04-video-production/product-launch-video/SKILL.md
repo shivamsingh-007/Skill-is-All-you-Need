@@ -1,6 +1,13 @@
 ---
 name: product-launch-video
 description: >
+  Use this skill when creating product launch, SaaS promo, feature reveal, or app marketing videos.
+  Do not use for topic explainers, PR videos, or general website videos.
+triggers:
+  - "create launch video"
+  - "promo for our site"
+  - "feature reveal video"
+  - "SaaS promo"
   Use when the user wants a product launch, SaaS promo, feature reveal,
   app/company/site marketing video, or a script/brief turned into a
   product-focused video. Triggers include launch video for X, promo for our

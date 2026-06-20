@@ -1,6 +1,13 @@
 ---
 name: hyperframes
 description: >
+  Use this skill when making, creating, generating, editing, animating, or rendering any video, animation, motion graphic, explainer, title card, overlay, or HyperFrames HTML composition.
+  Do not use for browser automation or screen recording with another framework.
+triggers:
+  - "make me a video"
+  - "create animation"
+  - "render video"
+  - "HyperFrames composition"
   READ THIS FIRST — the HyperFrames entry skill. START HERE for any request to
   make, create, generate, edit, animate, or render a video, animation, motion
   graphic, explainer, title card, overlay, captioned video, product promo,

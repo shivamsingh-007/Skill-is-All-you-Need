@@ -1,6 +1,13 @@
 ---
 name: fal-image-edit
-description: |
+description: >
+  Use this skill when editing images with AI: style transfer, background removal, object removal, or inpainting via fal.ai.
+  Do not use for image generation or upscaling.
+triggers:
+  - "edit this image"
+  - "remove background"
+  - "AI inpainting"
+  - "style transfer"
   AI-powered image editing with style transfer, background removal, object removal, and inpainting via fal.ai hosted models.
 triggers:
   - "fal image edit"

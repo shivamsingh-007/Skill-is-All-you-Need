@@ -1,6 +1,12 @@
 ---
 name: prompt-engineering
-description: Improve prompts for reliability, structure, tool use, and output control. Use this when asked to rewrite prompts, reduce hallucinations, improve instruction clarity, or enforce output format. Do not use for model training or dataset creation. Do not use for diagnosing unsupported model outputs - use hallucination-debugging instead.
+description: >
+  Use this skill when rewriting prompts, reducing hallucinations, improving instruction clarity, or enforcing output format.
+  Do not use for model training or dataset creation.
+triggers:
+  - "improve this prompt"
+  - "reduce hallucinations"
+  - "prompt optimization", structure, tool use, and output control. Use this when asked to rewrite prompts, reduce hallucinations, improve instruction clarity, or enforce output format. Do not use for model training or dataset creation. Do not use for diagnosing unsupported model outputs - use hallucination-debugging instead.
 ---
 
 # Prompt Engineering

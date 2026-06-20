@@ -1,6 +1,12 @@
 ---
 name: sora
-description: |
+description: >
+  Use this skill when generating short video clips via OpenAI Sora API for cinematic shots or b-roll.
+  Do not use for long-form video or video editing.
+triggers:
+  - "generate video clip"
+  - "create b-roll"
+  - "Sora video"
   Generate, remix, and manage short video clips via OpenAI's Sora API. Useful for cinematic shots, b-roll, and rapid concept video iteration.
 triggers:
   - "sora"

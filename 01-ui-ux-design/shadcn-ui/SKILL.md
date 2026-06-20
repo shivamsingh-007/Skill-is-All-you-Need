@@ -1,6 +1,12 @@
 ---
 name: shadcn-ui
-description: |
+description: >
+  Use this skill when building UI components with shadcn/ui, Radix UI, and Tailwind CSS.
+  Do not use for custom component libraries without shadcn/ui.
+triggers:
+  - "create shadcn component"
+  - "build with shadcn/ui"
+  - "Radix UI component"
   Build UI components with shadcn/ui. Pairs with the Stitch design loop to ship structured, accessible components quickly.
 triggers:
   - "shadcn"

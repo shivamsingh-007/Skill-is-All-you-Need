@@ -1,6 +1,13 @@
 ---
 name: general-video
 description: >
+  Use this skill when creating multi-scene video compositions, brand reels, montages, or freeform video at any length.
+  Do not use for product launches, PR videos, or caption-only work.
+triggers:
+  - "create a video"
+  - "make a montage"
+  - "brand reel"
+  - "multi-scene video"
   Use as the fallback for custom HyperFrames HTML video composition authoring
   when no specialized workflow fits. Covers longer or multi-scene pieces,
   brand/sizzle reels, montages, title cards, motion posters at length, static

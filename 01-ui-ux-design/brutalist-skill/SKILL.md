@@ -1,6 +1,12 @@
 ---
 name: industrial-brutalist-ui
-description: |
+description: >
+  Use this skill when designing raw mechanical interfaces, brutalist websites, or Swiss typographic print aesthetics.
+  Do not use for polished consumer UI or soft editorial design.
+triggers:
+  - "design a brutalist website"
+  - "create raw mechanical interface"
+  - "Swiss typography design"
   Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy dashboards, portfolios, or editorial sites that need to feel like declassified blueprints.
 triggers:
   - "industrial brutalist UI"

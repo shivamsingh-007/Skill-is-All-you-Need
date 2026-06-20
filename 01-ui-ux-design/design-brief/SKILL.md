@@ -1,6 +1,12 @@
 ---
 name: design-brief
-description: |
+description: >
+  Use this skill when parsing or creating structured design briefs in I-Lang protocol format.
+  Do not use for implementation planning or code specs.
+triggers:
+  - "create a design brief"
+  - "parse I-Lang brief"
+  - "structured design spec"
   Parse a structured design brief written in I-Lang protocol format into a
   concrete design spec. Eliminates ambiguity from vague requests like
   "make it professional" by requiring explicit dimensions: palette, typography,

@@ -1,6 +1,12 @@
 ---
 name: shader-dev
-description: |
+description: >
+  Use this skill when writing GLSL shaders, ray marching, fluid simulation, or particle systems.
+  Do not use for CSS animations or simple canvas drawing.
+triggers:
+  - "create GLSL shader"
+  - "build fluid simulation"
+  - "ray marching effect"
   GLSL shader techniques for ray marching, fluid simulation, particle systems, and procedural generation. Useful for hero visuals and motion stills.
 triggers:
   - "shader"

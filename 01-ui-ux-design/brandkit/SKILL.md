@@ -1,6 +1,13 @@
 ---
 name: brandkit
-description: |
+description: >
+  Use this skill when creating premium brand-kit boards, logo systems, identity decks, or visual-world presentations.
+  Do not use for simple logo design (use unified-design) or UI component styling (use ui-styling).
+triggers:
+  - "create a brand deck"
+  - "design logo system"
+  - "build brand guidelines"
+  - "create identity presentation"
   Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, editorial, dark-tech, luxury, cultural, security, gaming, developer-tool, and consumer-app brand systems. Optimized for intentional logo concepting, refined composition, sparse typography, strong symbolic meaning, premium mockups, art-directed imagery, and flexible grid layouts.
 triggers:
   - "brand kit"

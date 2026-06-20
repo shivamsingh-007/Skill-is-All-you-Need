@@ -1,6 +1,13 @@
 ---
 name: motion-graphics
 description: >
+  Use this skill for short, design-led motion graphics: kinetic typography, stat count-ups, logo stings, lower-thirds, or animated headlines.
+  Do not use for longer narrated pieces or full video production.
+triggers:
+  - "create motion graphic"
+  - "animate this headline"
+  - "kinetic typography"
+  - "logo sting"
   Use when the user wants a short, design-led motion graphic where motion is the
   message: kinetic typography, stat or number count-up, chart/data-viz hit,
   logo sting, brand lockup, lower-third, callout, social overlay, animated

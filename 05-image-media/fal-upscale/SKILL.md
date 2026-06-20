@@ -1,6 +1,12 @@
 ---
 name: fal-upscale
-description: |
+description: >
+  Use this skill when upscaling or enhancing image/video resolution using AI super-resolution via fal.ai.
+  Do not use for image generation or basic resizing.
+triggers:
+  - "upscale this image"
+  - "enhance resolution"
+  - "AI super-resolution"
   Upscale and enhance image and video resolution using AI super-resolution models hosted on fal.ai.
 triggers:
   - "fal upscale"

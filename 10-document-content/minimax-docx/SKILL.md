@@ -1,6 +1,12 @@
 ---
 name: minimax-docx
-description: |
+description: >
+  Use this skill when creating professional DOCX documents with OpenXML SDK for branded reports or proposals.
+  Do not use for simple text documents or PDFs.
+triggers:
+  - "create branded DOCX"
+  - "professional document"
+  - "OpenXML document"
   Professional DOCX document creation and editing using OpenXML SDK. Useful for branded reports, polished proposals, and template-based authoring.
 triggers:
   - "minimax docx"

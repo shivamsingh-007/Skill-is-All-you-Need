@@ -1,6 +1,12 @@
 ---
 name: platform-design
-description: |
+description: >
+  Use this skill when designing cross-platform apps with 300+ rules from Apple HIG, Material Design 3, and WCAG 2.2.
+  Do not use for web-only or single-platform projects.
+triggers:
+  - "design for iOS and Android"
+  - "cross-platform design"
+  - "Apple HIG compliance"
   300+ design rules from Apple HIG, Material Design 3, and WCAG 2.2 for cross-platform apps. Useful when shipping a single design across iOS, Android, and the web.
 triggers:
   - "platform design"

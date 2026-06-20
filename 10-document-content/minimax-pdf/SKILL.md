@@ -1,6 +1,12 @@
 ---
 name: minimax-pdf
-description: |
+description: >
+  Use this skill when generating, filling, or reformatting PDFs with token-based design systems and 15 cover styles.
+  Do not use for DOCX or PPTX creation.
+triggers:
+  - "generate branded PDF"
+  - "create PDF report"
+  - "PDF with cover design"
   Generate, fill, and reformat PDFs with a token-based design system and 15 cover styles. Useful for branded PDFs, e-guides, and reports.
 triggers:
   - "minimax pdf"

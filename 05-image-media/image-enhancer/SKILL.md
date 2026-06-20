@@ -1,6 +1,12 @@
 ---
 name: image-enhancer
-description: Improves the quality of images, especially screenshots, by enhancing resolution, sharpness, and clarity. Perfect for preparing images for presentations, documentation, or social media posts.
+description: >
+  Use this skill when improving image quality, especially screenshots, by enhancing resolution, sharpness, and clarity.
+  Do not use for AI generation or video processing.
+triggers:
+  - "enhance this image"
+  - "improve screenshot quality"
+  - "sharpen image", especially screenshots, by enhancing resolution, sharpness, and clarity. Perfect for preparing images for presentations, documentation, or social media posts.
 ---
 
 # Image Enhancer

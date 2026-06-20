@@ -1,6 +1,12 @@
 ---
 name: creative-director
-description: |
+description: >
+  Use this skill when directing a creative campaign, running recursive self-assessment, or applying 20+ creative methodologies.
+  Do not use for simple UI tasks or code review.
+triggers:
+  - "direct a creative campaign"
+  - "run creative assessment"
+  - "apply TRIZ methodology"
   AI creative director with recursive self-assessment: 20+ methodologies (SIT, TRIZ, Bisociation, SCAMPER, Synectics), 3-axis evaluation calibrated against Cannes/D&AD/HumanKind, 5-phase process from brief to presentation.
 triggers:
   - "creative director"

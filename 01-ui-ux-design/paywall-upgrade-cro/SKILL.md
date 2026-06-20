@@ -1,6 +1,13 @@
 ---
 name: paywall-upgrade-cro
-description: |
+description: >
+  Use this skill when designing upgrade screens, paywalls, or upsell modals for SaaS conversion.
+  Do not use for general pricing pages or checkout flows.
+triggers:
+  - "design upgrade screen"
+  - "create paywall"
+  - "upsell modal"
+  - "SaaS conversion design"
   Design and optimize upgrade screens, paywalls, and upsell modals. Useful for SaaS conversion design and pricing-page experiments.
 triggers:
   - "paywall"

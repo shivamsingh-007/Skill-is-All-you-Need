@@ -1,6 +1,13 @@
 ---
 name: fal-restore
-description: |
+description: >
+  Use this skill when restoring image quality: deblur, denoise, fix faces, or restore old documents via fal.ai.
+  Do not use for general image editing or generation.
+triggers:
+  - "restore this image"
+  - "fix face in photo"
+  - "deblur image"
+  - "restore old document"
   Restore and fix image quality — deblur, denoise, fix faces, and restore old documents using fal.ai's hosted restoration models.
 triggers:
   - "fal restore"

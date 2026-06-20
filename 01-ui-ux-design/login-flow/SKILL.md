@@ -1,6 +1,12 @@
 ---
 name: login-flow
-description: Mobile login and authentication flow screens
+description: >
+  Use this skill when creating mobile login, authentication, or onboarding flow screens.
+  Do not use for desktop auth flows or backend auth logic.
+triggers:
+  - "create login flow"
+  - "design authentication screen"
+  - "mobile onboarding"
 od:
   mode: prototype
   platform: mobile

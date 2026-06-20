@@ -1,6 +1,13 @@
 ---
 name: color-expert
-description: |
+description: >
+  Use this skill when generating color palettes, checking contrast ratios, or working with OKLCH/OKLAB color spaces.
+  Do not use for brand identity (use brand) or general UI styling (use ui-styling).
+triggers:
+  - "generate a color palette"
+  - "check contrast ratio"
+  - "OKLCH color scheme"
+  - "accessibility colors"
   Color science expert skill with 286K words of reference material covering OKLCH/OKLAB, palette generation, accessibility/contrast, color naming, pigment mixing, and historical color theory.
 triggers:
   - "color theory"

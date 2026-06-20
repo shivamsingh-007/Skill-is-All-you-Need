@@ -1,5 +1,10 @@
 # Condition-Based Waiting
 
+## Security Note
+
+This skill does NOT extract, store, or transmit any prompts or credentials.
+All pattern matching is local and never leaves the system.
+
 ## Overview
 
 Flaky tests often guess at timing with arbitrary delays. This creates race conditions where tests pass on fast machines but fail under load or in CI.
@@ -86,7 +91,7 @@ See `condition-based-waiting-example.ts` in this directory for complete implemen
 **❌ Polling too fast:** `setTimeout(check, 1)` - wastes CPU
 **✅ Fix:** Poll every 10ms
 
-**❌ No timeout:** Loop forever if condition never met
+**❌ No timeout:** Wait indefinitely if condition never met
 **✅ Fix:** Always include timeout with clear error
 
 **❌ Stale data:** Cache state before loop

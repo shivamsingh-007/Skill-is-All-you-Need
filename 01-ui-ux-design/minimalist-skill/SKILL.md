@@ -1,6 +1,12 @@
 ---
 name: minimalist-ui
-description: |
+description: >
+  Use this skill when designing clean editorial interfaces with warm monochrome palette and typographic contrast.
+  Do not use for bold, colorful, or maximalist designs.
+triggers:
+  - "design minimalist UI"
+  - "clean editorial interface"
+  - "warm monochrome design"
   Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.
 triggers:
   - "minimalist ui"

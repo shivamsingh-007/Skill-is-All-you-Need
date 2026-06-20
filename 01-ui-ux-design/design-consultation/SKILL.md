@@ -1,6 +1,12 @@
 ---
 name: design-consultation
-description: |
+description: >
+  Use this skill when building a complete design system from scratch with creative risks and realistic product mockups.
+  Do not use for incremental UI tweaks or component-only work.
+triggers:
+  - "build a design system from scratch"
+  - "kickoff workshop"
+  - "brand from zero"
   Build a complete design system from scratch with creative risks and realistic product mockups. Useful for kickoff workshops and brand-from-zero work.
 triggers:
   - "design consultation"

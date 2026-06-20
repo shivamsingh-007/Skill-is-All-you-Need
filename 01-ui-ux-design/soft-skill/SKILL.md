@@ -1,6 +1,12 @@
 ---
 name: high-end-visual-design
-description: |
+description: >
+  Use this skill when designing like a high-end agency with premium, anti-generic UI standards.
+  Do not use for utilitarian or developer-tools interfaces.
+triggers:
+  - "design like a high-end agency"
+  - "premium UI design"
+  - "anti-generic interface"
   Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic.
 triggers:
   - "high end visual design"

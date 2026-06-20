@@ -1,7 +1,13 @@
 ---
 name: last30days
 version: "3.6.0"
-description: "Research what people actually say about any topic in the last 30 days. Pulls posts and engagement from Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub, and the web."
+description: >
+  Use this skill when researching trending topics, social sentiment, or what people are saying across Reddit, X, YouTube, TikTok in the last 30 days.
+  Do not use for historical research or long-term trend analysis.
+triggers:
+  - "what is trending about X"
+  - "social sentiment last 30 days"
+  - "recent discussions about" Pulls posts and engagement from Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub, and the web."
 argument-hint: 'last30days nvidia earnings reaction | last30days AI video tools | last30days what users want in react'
 allowed-tools: Bash, Read, Write, AskUserQuestion, WebSearch
 homepage: https://github.com/mvanhorn/last30days-skill

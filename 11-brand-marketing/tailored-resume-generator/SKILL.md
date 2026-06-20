@@ -1,6 +1,12 @@
 ---
 name: tailored-resume-generator
-description: Analyzes job descriptions and generates tailored resumes that highlight relevant experience, skills, and achievements to maximize interview chances
+description: >
+  Use this skill when creating tailored resumes from job descriptions to maximize interview chances.
+  Do not use for cover letters or LinkedIn profiles.
+triggers:
+  - "create tailored resume"
+  - "resume for this job"
+  - "job-specific resume" that highlight relevant experience, skills, and achievements to maximize interview chances
 ---
 
 # Tailored Resume Generator

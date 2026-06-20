@@ -1,6 +1,12 @@
 ---
 name: twitter-algorithm-optimizer
-description: Analyze and optimize tweets for maximum reach using Twitter's open-source algorithm insights. Rewrite and edit user tweets to improve engagement and visibility based on how the recommendation system ranks content.
+description: >
+  Use this skill when optimizing tweets for Twitter algorithm reach and engagement.
+  Do not use for general social media strategy.
+triggers:
+  - "optimize this tweet"
+  - "improve tweet reach"
+  - "Twitter algorithm optimization" using Twitter's open-source algorithm insights. Rewrite and edit user tweets to improve engagement and visibility based on how the recommendation system ranks content.
 license: AGPL-3.0 (referencing Twitter's algorithm source)
 ---
 

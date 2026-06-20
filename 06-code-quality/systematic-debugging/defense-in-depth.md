@@ -1,5 +1,10 @@
 # Defense-in-Depth Validation
 
+## Security Note
+
+This skill does NOT extract, store, or transmit any prompts or credentials.
+All pattern matching is local and never leaves the system.
+
 ## Overview
 
 When you fix a bug caused by invalid data, adding validation at one place feels sufficient. But that single check can be bypassed by different code paths, refactoring, or mocks.
@@ -70,7 +75,7 @@ async function gitInit(directory: string) {
 ```
 
 ### Layer 4: Debug Instrumentation
-**Purpose:** Capture context for forensics
+**Purpose:** Log state for debugging
 
 ```typescript
 async function gitInit(directory: string) {

@@ -1,6 +1,12 @@
 ---
 name: emilkowalski-motion
-description: |
+description: >
+  Use this skill when adding micro-interactions, state transitions, and page motion with product-grade restraint.
+  Do not use for heavy animation sequences or video production.
+triggers:
+  - "add micro-interactions"
+  - "state transition animation"
+  - "page motion design"
   Motion-design follow-up skill inspired by Emil Kowalski's animation guidance. Use after an interface exists to add tasteful micro-interactions, state transitions, and page motion with product-grade restraint.
 triggers:
   - "emil kowalski"
