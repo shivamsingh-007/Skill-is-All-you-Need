@@ -59,7 +59,7 @@ Result: Security-focused code review with OWASP checks
 ---
 
 ## Quick Start
-bash
+'''bash
 # 1. Clone
 git clone https://github.com/shivamsingh-007/Skill-is-All-you-Need.git
 
