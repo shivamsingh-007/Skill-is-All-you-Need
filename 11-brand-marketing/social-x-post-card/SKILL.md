@@ -58,7 +58,6 @@ od:
 【设计细节】
 - 配色 light: bg `#fff`, text `#0f1419`, secondary `#536471`, border `#eff3f4`, accent `#1d9bf0`。
 - 配色 dark (推荐, 视频叠加用): bg `#000`, text `#e7e9ea`, secondary `#71767b`, border `#2f3336`, accent `#1d9bf0`。
-- 数字格式化: 1.2K / 4.5M (不要原始 1234)。
 - 内容必须来自用户输入, 不能编造推文。
 - 若用户输入是数据 → 自动总结成一句"金句"推文 (≤ 280 字符)。
 - 单文件 HTML; icon 内联 SVG; 不要任何外部图片 URL。
