@@ -1,4 +1,4 @@
-#!/bin/bash
+
 # kie.ai API wrapper for OpenClaw
 # Unified API access to multiple AI models (Nano Banana, Veo, Flux, Suno, etc.)
 
